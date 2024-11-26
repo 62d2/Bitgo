@@ -11,7 +11,7 @@ class NotificationService:
         """
         # return Notification()
 
-    def list(self) -> list(Notification):
+    def list(self) -> list[Notification]:
         """
         list all the notification in the system
         :return:

@@ -17,4 +17,4 @@ class Notice(BaseCtx):
         pass
 
     def retry(self):
-
+        pass

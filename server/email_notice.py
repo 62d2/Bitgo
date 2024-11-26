@@ -15,10 +15,8 @@ class EmailNotice(BaseNotice):
 
     def send(self):
         """
-        Implementatipon for the email based Noticaition
+        try sending the email notificaiton if it fails then retry
+        and update the log with proper value
         :return:
         """
-        pass
-
-    def retry(self):
         pass
