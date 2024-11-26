@@ -1,13 +1,11 @@
-from typing import List, Optional
+from typing import Optional
 
 from sqlmodel import SQLModel, Field
 
 
-class EmailNoticeLog(SQLModel, table=True):
+class PhoneNoticeLog(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
-    from_email: str
-    to_emails: List[str]
-    bcc_emails: List[str]
+    phone_number: str
     subject: str
     content: str
     notice_log_id: int

@@ -1,0 +1,2 @@
+class BaseCtx:
+    pass
